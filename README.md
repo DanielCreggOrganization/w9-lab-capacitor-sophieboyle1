@@ -7,10 +7,32 @@
 - On mobile devices, it uses native platform APIs through a bridge
 - Your code remains the same regardless of platform
 
-In this lab, we'll build a Travel Companion app that demonstrates how Capacitor provides a consistent interface to different platform capabilities:
-1. Camera access (using Web Camera API in browser)
-2. Geolocation (using Web Geolocation API in browser)
-3. Device information (using Web APIs and Browser APIs)
+In this lab, we'll build a Travel Companion app that demonstrates how Capacitor provides a consistent interface to different platform capabilities.
+
+## Contents
+1. [Project Setup and Understanding Web APIs](#1-project-setup-and-understanding-web-apis)
+    - [Understanding How Capacitor Works in the Browser](#understanding-how-capacitor-works-in-the-browser)
+    - [Project Creation and Setup](#project-creation-and-setup)
+    - [Understanding Browser APIs](#understanding-browser-apis)
+2. [Camera Implementation](#2-camera-implementation)
+    - [Understanding the Web Camera API](#understanding-the-web-camera-api)
+    - [Camera Service Implementation](#camera-service-implementation)
+    - [What's Really Happening in the Browser](#whats-really-happening-in-the-browser)
+3. [Geolocation Implementation](#3-geolocation-implementation)
+    - [Understanding the Web Geolocation API](#understanding-the-web-geolocation-api)
+    - [Location Service Implementation](#location-service-implementation)
+    - [What's Really Happening in the Browser](#whats-really-happening-in-the-browser-1)
+4. [Device Information](#4-device-information)
+    - [Understanding Browser APIs for Device Info](#understanding-browser-apis-for-device-info)
+    - [Device Service Implementation](#device-service-implementation)
+    - [What's Really Happening in the Browser](#whats-really-happening-in-the-browser-2)
+5. [Browser Testing Guide](#5-browser-testing-guide)
+    - [Setting Up for Browser Testing](#setting-up-for-browser-testing)
+    - [Testing Each Feature](#testing-each-feature)
+    - [Understanding Browser Limitations](#understanding-browser-limitations)
+6. [DIY Tasks](#diy-tasks)
+7. [Additional Resources](#additional-resources)
+8. [Submission Requirements](#submission-requirements)
 
 ```mermaid
 graph TD
