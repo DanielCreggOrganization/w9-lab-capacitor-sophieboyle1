@@ -13,7 +13,6 @@ In this lab, we'll build a Travel Companion app that demonstrates how Capacitor 
 1. [Project Setup and Understanding Web APIs](#1-project-setup-and-understanding-web-apis)
     - [Understanding How Capacitor Works in the Browser](#understanding-how-capacitor-works-in-the-browser)
     - [Project Creation and Setup](#project-creation-and-setup)
-    - [Understanding Browser APIs](#understanding-browser-apis)
 2. [Camera Implementation](#2-camera-implementation)
     - [Understanding the Web Camera API](#understanding-the-web-camera-api)
     - [Camera Service Implementation](#camera-service-implementation)
