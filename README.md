@@ -46,7 +46,9 @@ When running in a browser:
 1. First, let's create a new Ionic project with the blank template:
    ```bash
    # Create new Ionic standalone project
-   ionic start travel-companion blank --type=angular --standalone
+   ionic start travel-companion blank --type=angular
+
+   # Select Standalone project
 
    # Navigate to project directory
    cd travel-companion
