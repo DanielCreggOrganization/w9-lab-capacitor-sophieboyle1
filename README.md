@@ -2,7 +2,7 @@
 
 ## Overview
 
-Capacitor is Ionic's platform abstraction layer that enables web applications to access native functionality across different platforms. What makes it special is its intelligent handling of APIs:
+[Capacitor](https://capacitorjs.com/) is Ionic's platform abstraction layer that enables web applications to access native functionality across different platforms. What makes it special is its intelligent handling of APIs:
 - In a web browser, it uses Web APIs directly when available
 - On mobile devices, it uses native platform APIs through a bridge
 - Your code remains the same regardless of platform
