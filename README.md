@@ -9,12 +9,6 @@ In this lab, we'll build a Travel Companion app that demonstrates three key Capa
 2. Geolocation for tracking your location
 3. Device information for platform-specific features
 
-**Prerequisites:**
-- Basic knowledge of Angular and TypeScript
-- Ionic framework fundamentals
-- Node.js and npm installed
-- Visual Studio Code or similar IDE
-
 ## Agenda
 
 1. [Project Setup and Capacitor Configuration](#1-project-setup-and-capacitor-configuration)
