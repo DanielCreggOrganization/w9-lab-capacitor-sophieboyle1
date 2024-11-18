@@ -9,8 +9,6 @@ In this lab, we'll build a Travel Companion app that demonstrates three key Capa
 2. Geolocation for tracking your location
 3. Device information for platform-specific features
 
-**Duration:** 2 hours
-**Target Audience:** 4th Year College Students
 **Prerequisites:**
 - Basic knowledge of Angular and TypeScript
 - Ionic framework fundamentals
