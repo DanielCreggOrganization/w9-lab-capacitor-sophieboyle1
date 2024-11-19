@@ -150,6 +150,11 @@ sequenceDiagram
     Capacitor Camera Plugin->>App: Photo Data URL
 ```
 
+First create a new services folder with a new camera service inside:
+```bash
+ionic g s services/camera
+```
+
 ### Camera Service Implementation
 
 ```typescript
