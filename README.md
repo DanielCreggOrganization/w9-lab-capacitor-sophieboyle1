@@ -90,7 +90,7 @@ graph LR
    # Create new Ionic Angular project
    ionic start travel-companion blank --type=angular
 
-   # Select ``Standalone`` project
+   # Select Standalone
    
    # Navigate to project directory
    cd travel-companion
@@ -98,10 +98,11 @@ graph LR
 
 2. Install Capacitor Plugins:
    ```bash
-   npm install @capacitor/camera @capacitor/geolocation @capacitor/device
+   npm install @ionic/pwa-elements @capacitor/camera @capacitor/geolocation @capacitor/device
    ```
 
    Each plugin provides a consistent interface to different platform capabilities:
+   - @ionic/pwa-elements: This package provides web implementations for Capacitor plugins, allowing them to function in a web environment.
    - @capacitor/camera: Uses navigator.mediaDevices.getUserMedia() in browser
    - @capacitor/geolocation: Uses navigator.geolocation in browser
    - @capacitor/device: Uses various navigator properties in browser
