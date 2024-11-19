@@ -90,6 +90,8 @@ graph LR
    # Create new Ionic Angular project
    ionic start travel-companion blank --type=angular
 
+   # Select ``Standalone`` project
+   
    # Navigate to project directory
    cd travel-companion
    ```
