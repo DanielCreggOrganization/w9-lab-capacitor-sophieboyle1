@@ -156,6 +156,8 @@ First create a new services folder with a new camera service inside:
 ionic g s services/camera
 ```
 
+Turn on Locations services in windows. Search for Location and turn on the switch. 
+
 ### Camera Service Implementation
 
 ```typescript
