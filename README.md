@@ -223,6 +223,11 @@ sequenceDiagram
     Capacitor Geolocation->>App: Standardized Position Data
 ```
 
+Create a new localtion service :
+```bash
+ionic g s services/location
+```
+
 ### Location Service Implementation
 
 ```typescript
@@ -272,6 +277,11 @@ graph TD
     B --> E[language]
     B --> F[hardwareConcurrency]
     B --> G[deviceMemory]
+```
+
+Create a new device-info service :
+```bash
+ionic g s services/device-info
 ```
 
 ### Device Service Implementation
