@@ -85,7 +85,8 @@ graph LR
 
 ### Project Creation and Setup
 
-1. Create new Ionic project:
+1. Install the Official Ionic extension for VSCode
+2. Create new Ionic project:
    ```bash
    # Create new Ionic Angular project
    ionic start travel-companion blank --type=angular
@@ -96,7 +97,7 @@ graph LR
    cd travel-companion
    ```
 
-2. Install Capacitor Plugins:
+3. Install Capacitor Plugins:
    ```bash
    npm install @ionic/pwa-elements @capacitor/camera @capacitor/geolocation @capacitor/device
    ```
@@ -107,7 +108,7 @@ graph LR
    - @capacitor/geolocation: Uses navigator.geolocation in browser
    - @capacitor/device: Uses various navigator properties in browser
 
-3. Understanding Browser APIs:
+4. Understanding Browser APIs:
    Before we implement the plugins, let's look at the Web APIs we'll be using:
 
    ```typescript
