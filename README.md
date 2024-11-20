@@ -313,11 +313,11 @@ export class DeviceInfoService {
 
 ## 5. Network Information
 
-Go to [Capacitor Plugins Webpage](https://capacitorjs.com/docs/plugins) to assist with writing the following service.
+Go to [Capacitor Plugins Webpage](https://capacitorjs.com/docs/plugins) to assist with incorporating this plugin.
 
-## 6. Test to Speech
+## 6. Text to Speech
 
-Go to [Capacitor Plugins Webpage](https://capacitorjs.com/docs/plugins) to assist with writing the following service.
+Go to [Capacitor Plugins Webpage](https://capacitorjs.com/docs/plugins) to assist with incorporating this plugin. Please note this is a `Community Plugin`.
 
 ## 7. Browser Testing Guide
 
