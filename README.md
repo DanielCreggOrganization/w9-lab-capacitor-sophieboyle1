@@ -156,8 +156,6 @@ First create a new services folder with a new camera service inside:
 ionic g s services/camera
 ```
 
-Turn on Locations services in windows. Search for Location and turn on the switch. 
-
 ### Camera Service Implementation
 
 ```typescript
@@ -230,6 +228,9 @@ Create a new localtion service :
 ```bash
 ionic g s services/location
 ```
+Turn on Locations services in Windows. Search for Location and turn on the switch. 
+
+Go to [Capacitor Plugins Webpage](https://capacitorjs.com/docs/plugins) to assist with writing the following service.
 
 ### Location Service Implementation
 
@@ -245,14 +246,7 @@ export class LocationService {
   constructor() { }
 
   async getCurrentPosition() {
-    try {
-      // In browser, uses navigator.geolocation.getCurrentPosition()
-      const coordinates = await Geolocation.getCurrentPosition();
-      return coordinates;
-    } catch (error) {
-      console.error('Error getting location:', error);
-      throw error;
-    }
+    // YOUR CODE HERE
   }
 }
 ```
@@ -413,10 +407,5 @@ export class DeviceInfoService {
    - Screenshots of permission prompts
    - Network tab showing API calls
    - Console logs of Web API interactions
-3. Write-up explaining:
-   - How Capacitor maps to Web APIs
-   - Browser compatibility issues found
-   - Solutions implemented for browser limitations
-
 ---
 End of Lab
