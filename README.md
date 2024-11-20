@@ -25,7 +25,9 @@ In this lab, we'll build a Travel Companion app that demonstrates how Capacitor 
     - [Understanding Browser APIs for Device Info](#understanding-browser-apis-for-device-info)
     - [Device Service Implementation](#device-service-implementation)
     - [What's Really Happening in the Browser](#whats-really-happening-in-the-browser-2)
-5. [Browser Testing Guide](#5-browser-testing-guide)
+5. [Network Imformation](#5-network-information)
+6. [Text to Speech](#6-text-to-speech)
+7. [Browser Testing Guide](#7-browser-testing-guide)
     - [Setting Up for Browser Testing](#setting-up-for-browser-testing)
     - [Testing Each Feature](#testing-each-feature)
     - [Understanding Browser Limitations](#understanding-browser-limitations)
@@ -280,6 +282,7 @@ Create a new device-info service :
 ```bash
 ionic g s services/device-info
 ```
+Go to [Capacitor Plugins Webpage](https://capacitorjs.com/docs/plugins) to assist with writing the following service.
 
 ### Device Service Implementation
 
@@ -295,14 +298,7 @@ export class DeviceInfoService {
   constructor() { }
 
   async getDeviceInfo() {
-    try {
-      // In browser, uses various navigator properties
-      const info = await Device.getInfo();
-      return info;
-    } catch (error) {
-      console.error('Error getting device info:', error);
-      throw error;
-    }
+    // YOUR CODE HERE
   }
 }
 ```
@@ -315,7 +311,15 @@ export class DeviceInfoService {
    - Other browser APIs
 2. Information available in browser is limited compared to mobile
 
-## 5. Browser Testing Guide
+## 5. Network Information
+
+Go to [Capacitor Plugins Webpage](https://capacitorjs.com/docs/plugins) to assist with writing the following service.
+
+## 6. Test to Speech
+
+Go to [Capacitor Plugins Webpage](https://capacitorjs.com/docs/plugins) to assist with writing the following service.
+
+## 7. Browser Testing Guide
 
 ### Setting Up for Browser Testing
 
@@ -377,8 +381,6 @@ export class DeviceInfoService {
 ## DIY Tasks
 
 1. Enhanced Camera Features:
-   - Implement camera device selection
-   - Add image filters using WebGL
    - Create a photo gallery with IndexedDB storage
 
 2. Advanced Geolocation:
