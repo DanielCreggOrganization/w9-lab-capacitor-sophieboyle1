@@ -11,7 +11,8 @@
         "vscode": {
             "extensions": [
                 "github.copilot@prerelease",
-                "github.copilot-chat@prerelease"
+                "github.copilot-chat@prerelease",
+                "bierner.markdown-mermaid"
             ]
         }
     }
