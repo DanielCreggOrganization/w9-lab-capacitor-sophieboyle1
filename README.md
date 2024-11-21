@@ -253,6 +253,7 @@ export class LocationService {
   }
 }
 ```
+Create a button on the home page template to active the `getCurrentPosition()` method above.
 
 ### What's Really Happening in the Browser
 1. Geolocation.getCurrentPosition() maps to:
@@ -303,6 +304,7 @@ export class DeviceInfoService {
   }
 }
 ```
+Create a button on the home page template to active the `getDeviceInfo()` method above.
 
 ### What's Really Happening in the Browser
 1. Device.getInfo() collects information from:
