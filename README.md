@@ -192,6 +192,7 @@ export class CameraService {
   }
 }
 ```
+Create a button on the home page template to active the `takePicture()` method above.
 
 ### What's Really Happening in the Browser
 1. The Camera.getPhoto() call triggers:
